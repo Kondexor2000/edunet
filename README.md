@@ -18,7 +18,9 @@ Testy automatyczne (jednostkowe i integracyjne)
 Konfiguracja
 
     Utwórz plik konfiguracyjny appsettings.json w katalogu Eduworknet
-    Skonfiguruj ustawienia aplikacji, takie jak połączenie z bazą danych, klucze tajne, itp.
+    dotnet add package nazwa_biblioteki
+    dotnet ef migrations add InitialCreate
+    dotnet ef database update
 
 Funkcje
 
