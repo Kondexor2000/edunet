@@ -6,12 +6,11 @@ Eduworknet to projekt aplikacji ASP.NET Core, który umożliwia zarządzanie wys
 
 ## Spis treści
 
+- [Instalacja](#instalacja)
+- [Konfiguracja](#konfiguracja)
 - [Funkcje](#funkcje)
 - [Tech stack](#tech-stack)
-- [Wymagania wstępne](#wymagania-wstępne)
-- [Instalacja i konfiguracja](#instalacja-i-konfiguracja)
-- [Testy](#testy)
-- [Przykłady użycia](#przykłady-użycia)
+- [Zaległe informacje](#zaległe-informacje)
 - [Kontakt](#kontakt)
 
 ## Instalacja
