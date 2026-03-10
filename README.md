@@ -11,32 +11,35 @@ Projekt wspiera uczestników kursów programistycznych w wyszukiwaniu informacji
 - [Konfiguracja](#konfiguracja)
 - [Funkcje](#funkcje)
 - [Tech stack](#tech-stack)
-- [Dodatkowe informacje](#dodatkowe-informacje)
+- [Uwagi dodatkowe](#uwagi-dodatkowe)
 - [Kontakt](#kontakt)
 
 ## Instalacja
 
-1. git clone https://github.com/Kondexor2000/edunet.git
-2. cd worknet
+```bash
+git clone https://github.com/Kondexor2000/edunet.git
+cd worknet
+```
 
 ## Konfiguracja
 
-1. Utwórz plik konfiguracyjny appsettings.json w katalogu Eduworknet
-2. dotnet restore
-3. dotnet ef migrations add InitialCreate
-4. dotnet ef database update
-5. dotnet test
-6. dotnet run
-7. http://localhost:5260/swagger/
+```bash
+dotnet restore
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+dotnet test
+dotnet run
+```
+Sprawdź działanie API w przeglądarce: [Swagger UI](http://localhost:5260/swagger/)
 
 ## Funkcje
 
 - Zarządzanie tagami i kategoriami przez administratora
 - Tworzenie, edycja i usuwanie tematów
 - Wyszukiwanie tematów
-- System ról użytkowników
+- System ról użytkowników (uwierzytelnianie i autoryzacja)
 - API REST
-- dokumentację Swagger
+- Dokumentacja API w Swagger
 
 ## Tech stack
 
@@ -45,11 +48,12 @@ Projekt wspiera uczestników kursów programistycznych w wyszukiwaniu informacji
 - PostgreSQL
 - Swagger / OpenAPI
 
-## Dodatkowe informacje
+## Uwagi dodatkowe
 
-- Aplikacja korzysta z frameworka ASP.NET Core 3.1
-- Aplikacja korzysta z bazy danych PostgreSQL
-- Aplikacja korzysta z autoryzacji i autoryzacji ról
+- .NET 8 SDK lub nowszy
+- PostgreSQL 13 lub nowszy
+- Preferowane IDE: Visual Studio 2022 lub Visual Studio Code
+- Współpraca z Front-End Developerem zalecana przy projektowaniu części wizualnej
 
 ## Kontakt
 

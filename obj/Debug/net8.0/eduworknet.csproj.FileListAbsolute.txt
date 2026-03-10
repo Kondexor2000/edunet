@@ -394,3 +394,4 @@ C:\Users\kondz\Programowanie\eduworknet\obj\Debug\net8.0\refint\eduworknet.dll
 C:\Users\kondz\Programowanie\eduworknet\obj\Debug\net8.0\eduworknet.pdb
 C:\Users\kondz\Programowanie\eduworknet\obj\Debug\net8.0\eduworknet.genruntimeconfig.cache
 C:\Users\kondz\Programowanie\eduworknet\obj\Debug\net8.0\ref\eduworknet.dll
+C:\Users\kondz\Programowanie\eduworknet\obj\Debug\net8.0\eduworknet.sourcelink.json
