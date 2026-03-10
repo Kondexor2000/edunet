@@ -1,6 +1,7 @@
 # Eduworknet
 
-Eduworknet to projekt aplikacji ASP.NET Core, który umożliwia zarządzanie wyszukiwaniami pojęć programistycznych. Celem projektu jest wsparcie uczestników kursów programistycznych, aby nie musieli korzystać z publicznych wyszukiwarek ani narzędzi AI w przypadku problemów z zadaniami. Zarządzanie tematami, tagami i kategoriami odbywa się przez prowadzących kurs lub osoby upoważnione przez nich.  
+Eduworknet to aplikacja ASP.NET Core służąca do zarządzania pojęciami programistycznymi.
+Projekt wspiera uczestników kursów programistycznych w wyszukiwaniu informacji potrzebnych do rozwiązywania zadań.  
 
 ---
 
@@ -10,19 +11,18 @@ Eduworknet to projekt aplikacji ASP.NET Core, który umożliwia zarządzanie wys
 - [Konfiguracja](#konfiguracja)
 - [Funkcje](#funkcje)
 - [Tech stack](#tech-stack)
-- [Zaległe informacje](#zaległe-informacje)
+- [Dodatkowe informacje](#dodatkowe-informacje)
 - [Kontakt](#kontakt)
 
 ## Instalacja
 
-1. Sklonuj za pomocą git clone https://github.com/Kondexor2000/edunet.git
-2. Przejdź do katalogu projektu: cd worknet
-3. Otwórz projekt w preferowanym środowisku programistycznym (np. Visual Studio, Visual Studio Code)
+1. git clone https://github.com/Kondexor2000/edunet.git
+2. cd worknet
 
 ## Konfiguracja
 
 1. Utwórz plik konfiguracyjny appsettings.json w katalogu Eduworknet
-2. dotnet add package nazwa_biblioteki
+2. dotnet restore
 3. dotnet ef migrations add InitialCreate
 4. dotnet ef database update
 5. dotnet test
@@ -34,6 +34,9 @@ Eduworknet to projekt aplikacji ASP.NET Core, który umożliwia zarządzanie wys
 - Zarządzanie tagami i kategoriami przez administratora
 - Tworzenie, edycja i usuwanie tematów
 - Wyszukiwanie tematów
+- System ról użytkowników
+- API REST
+- dokumentację Swagger
 
 ## Tech stack
 
@@ -42,7 +45,7 @@ Eduworknet to projekt aplikacji ASP.NET Core, który umożliwia zarządzanie wys
 - PostgreSQL
 - Swagger / OpenAPI
 
-## Zaległe informacje
+## Dodatkowe informacje
 
 - Aplikacja korzysta z frameworka ASP.NET Core 3.1
 - Aplikacja korzysta z bazy danych PostgreSQL
