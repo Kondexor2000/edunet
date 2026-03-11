@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using Worknet.Data;
 using Eduworknet.Models;
 
+[Authorize(Roles = "Admin")]
 public class AdminController : Controller
 {
     private readonly AppDbContext _context;
