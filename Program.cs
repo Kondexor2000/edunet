@@ -29,6 +29,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenLocalhost(5001, listenOptions =>
+    {
+        listenOptions.UseHttps("certificate.pfx");
+    });
+});
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

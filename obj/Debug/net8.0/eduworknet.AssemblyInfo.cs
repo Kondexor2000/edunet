@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eduworknet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11100b7672ae879cff2015d494d998fa6f9a8e7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65793891bbc718338a46b638651de8a2515e9b3f")]
 [assembly: System.Reflection.AssemblyProductAttribute("eduworknet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eduworknet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
