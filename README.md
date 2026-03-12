@@ -28,7 +28,9 @@ dotnet restore
 dotnet ef migrations add InitialCreate
 dotnet ef database update
 dotnet test
-dotnet run
+python generate_cert.py
+python generate_cert2.py
+dotnet run --launch-profile https
 ```
 Sprawdź działanie API w przeglądarce: [Swagger UI](http://localhost:5260/swagger/)
 
