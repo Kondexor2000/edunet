@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Worknet;
 using Worknet.Data;
 using Worknet.Services;
+using System.Security.Cryptography.X509Certificates;
+using System.IO;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,7 +28,6 @@ builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddScoped<CertificateService>();
 
 var app = builder.Build();
 

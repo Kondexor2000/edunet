@@ -1,5 +1,3 @@
 Migrations/
 obj/
 bin/
-cert.pem
-key.pem
