@@ -57,7 +57,7 @@ public class SubjectController : ControllerBase
     // UPDATE SUBJECT (UpdateSubjectView)
     // =====================================================
     [Authorize(Roles = "Moderator")]
-    [HttpPut("/subject/{subjectId:int}")]
+    [HttpPut("{subjectId:int}")]
     public async Task<IActionResult> UpdateSubject(
         int subjectId,
         [FromBody] SubjectDto dto)
@@ -89,7 +89,7 @@ public class SubjectController : ControllerBase
     // DELETE SUBJECT (DeleteSubjectView)
     // =====================================================
     [Authorize(Roles = "Moderator")]
-    [HttpDelete("/subject/{subjectId:int}")]
+    [HttpDelete("{subjectId:int}")]
     public async Task<IActionResult> DeleteSubject(
         int subjectId)
     {
