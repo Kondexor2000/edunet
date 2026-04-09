@@ -128,6 +128,7 @@ public class SubjectController : ControllerBase
 
         return Ok(subject);
     }
+    
     [HttpGet]
     public async Task<IActionResult> Search()
     {
@@ -164,6 +165,7 @@ public class SubjectController : ControllerBase
         var subjects = await subjectQuery
             .Include(s => s.CategoryCourses)
             .Include(s => s.TagCourses)
+            .OrderBy(s => s.Title)
             .ToListAsync();
 
         // Jeśli chcesz zwrócić JSON (API)
