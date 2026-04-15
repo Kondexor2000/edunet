@@ -1,7 +1,7 @@
 # Eduworknet
 
 Eduworknet is application ASP.NET Core servant to programming concepts management.
-Project wspiera uczestników programming course in information seeking potrzebnych do rozwiązywania zadań.
+Project wspiera uczestników programming course in information seeking needed to rozwiązywania zadań.
 Skraca czas potrzebny na przyswajanie wiedzy o 30%.
 
 ---
