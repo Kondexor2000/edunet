@@ -6,23 +6,23 @@ Shortens time needed on learning about 30%.
 
 ---
 
-## Spis treści
+## Contents
 
-- [Instalacja](#instalacja)
-- [Konfiguracja](#konfiguracja)
-- [Funkcje](#funkcje)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Functions](#functions)
 - [Tech stack](#tech-stack)
-- [Uwagi dodatkowe](#uwagi-dodatkowe)
-- [Kontakt](#kontakt)
+- [Additional comments](#additional-comments)
+- [Contact](#contact)
 
-## Instalacja
+## Installation
 
 ```bash
 git clone https://github.com/Kondexor2000/edunet.git
 cd worknet
 ```
 
-## Konfiguracja
+## Configuration
 
 ```bash
 dotnet restore
@@ -35,7 +35,7 @@ dotnet run --launch-profile https
 ```
 Sprawdź działanie API w przeglądarce: [Swagger UI](http://localhost:5260/swagger/)
 
-## Funkcje
+## Functions
 
 - Zarządzanie tagami i kategoriami przez administratora
 - Tworzenie, edycja i usuwanie tematów
@@ -51,13 +51,13 @@ Sprawdź działanie API w przeglądarce: [Swagger UI](http://localhost:5260/swag
 - PostgreSQL
 - Swagger / OpenAPI
 
-## Uwagi dodatkowe
+## Additional comments
 
 - .NET 8 SDK or newer
 - PostgreSQL 13 or newer
 - Prefered IDE: Visual Studio 2022 or Visual Studio Code
 - Cooperation with Front-End Developer is recommended by visual part design
 
-## Kontakt
+## Contact
 
 - If you have any questions or suggestions, get in touch with us on e-mail address: k.kosciecha20@gmail.com
