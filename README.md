@@ -33,7 +33,7 @@ python generate_cert.py
 python generate_cert2.py
 dotnet run --launch-profile https
 ```
-Sprawdź działanie API w przeglądarce: [Swagger UI](http://localhost:5260/swagger/)
+Check the API functionality in the browser: [Swagger UI](http://localhost:5260/swagger/)
 
 ## Functions
 
