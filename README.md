@@ -60,4 +60,4 @@ Sprawdź działanie API w przeglądarce: [Swagger UI](http://localhost:5260/swag
 
 ## Kontakt
 
-- Jeśli masz jakiekolwiek pytań lub sugestii, skontaktuj się z nami na adres e-mail: k.kosciecha20@gmail.com
+- If you have any questions or suggestions, get in touch with us on e-mail address: k.kosciecha20@gmail.com
