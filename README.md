@@ -55,7 +55,7 @@ Sprawdź działanie API w przeglądarce: [Swagger UI](http://localhost:5260/swag
 
 - .NET 8 SDK lub nowszy
 - PostgreSQL 13 lub nowszy
-- Prefered IDE: Visual Studio 2022 lub Visual Studio Code
+- Prefered IDE: Visual Studio 2022 or Visual Studio Code
 - Cooperation with Front-End Developer is recommended by visual part design
 
 ## Kontakt
