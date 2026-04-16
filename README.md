@@ -37,12 +37,12 @@ Sprawdź działanie API w przeglądarce: [Swagger UI](http://localhost:5260/swag
 
 ## Functions
 
-- Zarządzanie tagami i kategoriami przez administratora
-- Tworzenie, edycja i usuwanie tematów
-- Wyszukiwanie tematów
-- System ról użytkowników (uwierzytelnianie i autoryzacja)
-- API REST
-- Dokumentacja API w Swagger
+- Tag and category management by the administrator
+- Creating, editing, and deleting topics
+- Searching topics
+- User role system (authentication and authorization)
+- REST API
+- API documentation in Swagger
 
 ## Tech stack
 
