@@ -57,6 +57,7 @@ Check the API functionality in the browser: [Swagger UI](http://localhost:5260/s
 - PostgreSQL 13 or newer
 - Prefered IDE: Visual Studio 2022 or Visual Studio Code
 - Cooperation with Front-End Developer is recommended by visual part design
+- Login system is created according to education value by programming
 
 ## Contact
 
